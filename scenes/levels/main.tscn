@@ -1,15 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://b2u373es3tamo"]
+[gd_scene load_steps=4 format=3 uid="uid://b2u373es3tamo"]
 
 [ext_resource type="PackedScene" uid="uid://db74aeegu3k0q" path="res://scenes/actors/player.tscn" id="1_0yf0w"]
 [ext_resource type="PackedScene" uid="uid://k1oj3c3rrkll" path="res://scenes/actors/ball.tscn" id="2_837ns"]
 
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ly78q"]
+bounce = 0.8
+
 [node name="Main" type="Node"]
 
 [node name="Player" parent="." instance=ExtResource("1_0yf0w")]
-position = Vector2(256, 512)
+position = Vector2(512, 512)
 
 [node name="Ball" parent="." instance=ExtResource("2_837ns")]
 position = Vector2(608, 304)
+physics_material_override = SubResource("PhysicsMaterial_ly78q")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 collision_layer = 4
