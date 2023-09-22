@@ -9,7 +9,10 @@ bounce = 0.8
 [node name="Main" type="Node"]
 
 [node name="Player" parent="." instance=ExtResource("1_0yf0w")]
-position = Vector2(512, 512)
+position = Vector2(320, 256)
+spd = 300
+jump_force = 1200
+GRAVITY = 70
 
 [node name="Ball" parent="." instance=ExtResource("2_837ns")]
 position = Vector2(608, 304)
@@ -20,13 +23,20 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
-polygon = PackedVector2Array(0, 0, 1152, 0, 1152, -32, 0, -32)
+position = Vector2(0, -2432)
+polygon = PackedVector2Array(0, 0, 720, 0, 720, -32, 0, -32)
 
 [node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="StaticBody2D"]
-polygon = PackedVector2Array(0, 0, -32, 0, -32, 640, 0, 640)
+polygon = PackedVector2Array(0, -2432, -32, -2432, -32, 512, 0, 512)
 
 [node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="StaticBody2D"]
-polygon = PackedVector2Array(0, 640, 1152, 640, 1152, 672, 0, 672)
+position = Vector2(0, -128)
+polygon = PackedVector2Array(0, 640, 720, 640, 720, 672, 0, 672)
 
 [node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="StaticBody2D"]
-polygon = PackedVector2Array(1152, 0, 1184, 0, 1184, 640, 1152, 640)
+polygon = PackedVector2Array(720, -2432, 752, -2432, 752, 512, 720, 512)
+
+[node name="Line2D" type="Line2D" parent="."]
+position = Vector2(0, -48)
+points = PackedVector2Array(0, 576, 720, 576)
+width = 30.0
