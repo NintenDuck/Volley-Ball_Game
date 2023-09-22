@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2u373es3tamo"]
+
+[ext_resource type="PackedScene" uid="uid://db74aeegu3k0q" path="res://scenes/actors/player.tscn" id="1_0yf0w"]
+[ext_resource type="PackedScene" uid="uid://k1oj3c3rrkll" path="res://scenes/actors/ball.tscn" id="2_837ns"]
+
+[node name="Main" type="Node"]
+
+[node name="Player" parent="." instance=ExtResource("1_0yf0w")]
+position = Vector2(256, 512)
+
+[node name="Ball" parent="." instance=ExtResource("2_837ns")]
+position = Vector2(608, 304)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(0, 0, 1152, 0, 1152, -32, 0, -32)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(0, 0, -32, 0, -32, 640, 0, 640)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(0, 640, 1152, 640, 1152, 672, 0, 672)
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(1152, 0, 1184, 0, 1184, 640, 1152, 640)
