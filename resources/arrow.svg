@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70.09288mm"
+   height="72.306053mm"
+   viewBox="0 0 70.092879 72.306052"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="volley-ball_game.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#808080"
+     borderopacity="1"
+     inkscape:showpageshadow="true"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showborder="true"
+     inkscape:zoom="0.19576494"
+     inkscape:cx="1174.8784"
+     inkscape:cy="360.12577"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:lockguides="false"
+     showgrid="true" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-580.27462,-727.31237)">
+    <g
+       id="g3"
+       transform="translate(670.42598,332.20599)">
+      <rect
+         style="fill:#4d4d4d;stroke-width:20;stroke-linecap:round;stroke-dasharray:none"
+         id="rect3"
+         width="21.166666"
+         height="72.306053"
+         x="-65.678612"
+         y="395.10638"
+         ry="10.583333"
+         rx="10.583333" />
+      <rect
+         style="fill:#4d4d4d;stroke-width:20;stroke-linecap:round;stroke-dasharray:none"
+         id="rect3-1"
+         width="21.166666"
+         height="55.749115"
+         x="237.32437"
+         y="315.25449"
+         ry="10.583333"
+         rx="10.583333"
+         transform="rotate(45)" />
+      <rect
+         style="fill:#4d4d4d;stroke-width:20;stroke-linecap:round;stroke-dasharray:none"
+         id="rect3-1-0"
+         width="21.166666"
+         height="55.749115"
+         x="315.25449"
+         y="237.32437"
+         ry="10.583333"
+         rx="10.583333"
+         transform="matrix(-0.70710678,0.70710678,0.70710678,0.70710678,0,0)" />
+    </g>
+  </g>
+</svg>

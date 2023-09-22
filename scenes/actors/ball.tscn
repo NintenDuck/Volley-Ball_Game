@@ -1,6 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://k1oj3c3rrkll"]
+[gd_scene load_steps=4 format=3 uid="uid://k1oj3c3rrkll"]
 
 [ext_resource type="Texture2D" uid="uid://kappckg7sd4v" path="res://resources/ball.svg" id="1_ayy1j"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ly78q"]
+bounce = 0.8
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1l4pd"]
 size = Vector2(96, 96)
@@ -8,6 +11,7 @@ size = Vector2(96, 96)
 [node name="Ball" type="RigidBody2D"]
 collision_layer = 2
 collision_mask = 5
+physics_material_override = SubResource("PhysicsMaterial_ly78q")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -48)
