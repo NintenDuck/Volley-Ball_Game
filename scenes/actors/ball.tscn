@@ -5,8 +5,8 @@
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ly78q"]
 bounce = 0.8
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_1l4pd"]
-size = Vector2(96, 96)
+[sub_resource type="CircleShape2D" id="CircleShape2D_dtpcw"]
+radius = 48.0
 
 [node name="Ball" type="RigidBody2D"]
 collision_layer = 2
@@ -15,7 +15,7 @@ physics_material_override = SubResource("PhysicsMaterial_ly78q")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -48)
-shape = SubResource("RectangleShape2D_1l4pd")
+shape = SubResource("CircleShape2D_dtpcw")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, -48)

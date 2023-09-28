@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   sodipodi:docname="volley-ball_game.svg"
+   sodipodi:docname="ball.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showborder="true"
-     inkscape:zoom="0.19576494"
-     inkscape:cx="582.33103"
-     inkscape:cy="1075.2691"
+     inkscape:zoom="1.1074137"
+     inkscape:cx="30.702166"
+     inkscape:cy="50.116771"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
@@ -34,24 +34,7 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:lockguides="false"
-     showgrid="true">
-    <inkscape:grid
-       id="grid6"
-       units="px"
-       originx="-1519.4073"
-       originy="-67.499985"
-       spacingx="0.26458334"
-       spacingy="0.26458334"
-       empcolor="#0099e5"
-       empopacity="0.30196078"
-       color="#0099e5"
-       opacity="0.14901961"
-       empspacing="5"
-       dotted="false"
-       gridanglex="30"
-       gridanglez="30"
-       visible="true" />
-  </sodipodi:namedview>
+     showgrid="true" />
   <defs
      id="defs1" />
   <g
@@ -65,5 +48,9 @@
        cx="653.9881"
        cy="476.62259"
        r="39.182888" />
+    <path
+       style="fill:#666666;stroke-width:6.61458333;stroke-linecap:round;stroke-dasharray:none;stroke:#666666;fill-opacity:1;stroke-opacity:1"
+       d="m 653.9881,437.4397 v 78.36578"
+       id="path1" />
   </g>
 </svg>
